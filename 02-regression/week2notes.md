@@ -18,3 +18,40 @@ When the variation between the target variable and the independent variable is n
 When we use unnecessary explanatory variables, it might lead to overfitting. Overfitting means that our algorithm works well on the training set but is unable to perform better on the test sets. It is also known as a problem of high variance.
 
 [Great Learning](https://www.mygreatlearning.com/blog/what-is-regression/)
+
+### Types of Regression
+#### Linear Regression
+![Image credit: Wall Street Mojo](linear-regression.png)
+The simplest of all regression types is Linear Regression which tries to establish relationships between Independent and Dependent variables. The Dependent variable considered here is always a continuous variable. Follows
+
+$$Y = mx +c$$
+
+What is Linear Regression?
+Linear Regression is a predictive model used for finding the linear relationship between a dependent variable and one or more independent variables.
+
+#### Polynomial Regression
+This type of regression technique is used to model nonlinear equations by taking polynomial functions of independent variables.
+
+#### Logistic Regression
+Logistic Regression is also known as Logit, Maximum-Entropy classifier is a supervised learning method for classification. It establishes a relation between dependent class variables and independent variables using regression.
+
+
+### Project plan:
+
+Prepare data and Exploratory data analysis (EDA)
+Use linear regression for predicting price
+Understanding the internals of linear regression
+Evaluating the model with RMSE
+Feature engineering
+Regularization
+Using the model
+
+**Pandas attributes and methods:** 
+
+* pd.read_csv(<file_path_string>) - read csv files 
+* df.head() - take a look of the dataframe 
+* df.columns - retrieve colum names of a dataframe 
+* df.columns.str.lower() - lowercase all the letters 
+* df.columns.str.replace(' ', '_') - replace the space separator 
+* df.dtypes - retrieve data types of all features 
+* df.index - retrieve indices of a dataframe
