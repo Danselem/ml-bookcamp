@@ -1,0 +1,11 @@
+service: "service2.py:svc"
+labels:
+  owner: bentoml-team
+  project: gallery
+include:
+- "*.py"
+python:
+  packages: 
+    - xgboost
+    - sklearn
+    - pydantic
