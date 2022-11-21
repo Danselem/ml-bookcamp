@@ -23,7 +23,7 @@ class CreditApplication(BaseModel):
 
 model_ref = bentoml.xgboost.get("credit_risk_model:q2z6tjss4sl6zkui")
 
-# second model mlzoomcamp_homework:jsi67fslz6txydu5"
+
 dv = model_ref.custom_objects["dictVectorizer"]
 model_runner = model_ref.to_runner()
 
