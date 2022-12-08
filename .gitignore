@@ -130,5 +130,27 @@ dmypy.json
 
 ml-zoomcamp
 
+../08-deep-learning/model_v1.h5
+../08-deep-learning/xception_v1_01_0.760.h5
+../08-deep-learning/xception_v1_02_0.806.h5
+../08-deep-learning/xception_v1_04_0.815.h5
+../08-deep-learning/xception_v1_05_0.827.h5
+../08-deep-learning/xception_v4_1_01_0.842.h5
+../08-deep-learning/xception_v4_1_02_0.853.h5
+../08-deep-learning/xception_v4_1_03_0.856.h5
+../08-deep-learning/xception_v4_1_04_0.877.h5
+../08-deep-learning/xception_v4_1_08_0.880.h5
+../08-deep-learning/xception_v4_1_10_0.886.h5
+../08-deep-learning/xception_v4_1_14_0.891.h5
+../08-deep-learning/xception_v4_1_16_0.900.h5
+
+../09-serverless/clothing-model.h5
+../09-serverless/dino_dragon_10_0.899.h5
+../09-serverless/jobs/clothing-model.tflite
 
 4ba1efa946abab7ea8b55ee35b8c1d9b2275dbc7
+
+
+/Users/daniel/ml-zoomcamp/10-kubernetes/clothing-model
+
+/Users/daniel/ml-zoomcamp/10-kubernetes/clothing-model-v4.h5

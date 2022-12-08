@@ -1,5 +1,4 @@
 from io import BytesIO
-from pathlib import Path
 from urllib import request
 
 import numpy as np
@@ -8,8 +7,7 @@ from PIL import Image
 
 # from keras_image_helper import create_preprocessor
 
-model = Path("dino-vs-dragon-v2.tflite")
-interpreter = tflite.Interpreter(model_path=model.name)
+interpreter = tflite.Interpreter(model_path="dino-vs-dragon-v2.tflite")
 interpreter.allocate_tensors()
 
 input_index = interpreter.get_input_details()[0]["index"]
